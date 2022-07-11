@@ -22,8 +22,23 @@ function Nav(){
                 <li className="nav-item"> 
                     <a href="#" className="nav-link"> About</a>
                 </li>
-                <li className="nav-item">
-                    <a href="#" className="nav-link"> Features </a>
+                <li className="nav-item dropdown">
+                    <a
+                        href="#"
+                        className="nav-link dropdown-toggle"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                            Features
+                    </a>
+                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a className="dropdown-item" href="#">Free</a>
+                            <a className="dropdown-item" href="#">Pro</a>
+                            <div className="dropdown-divider" href="#"></div>
+                            <a className="dropdown-item" href="#">Become a Vendor</a>
+                        </div>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Testimonials</a>
