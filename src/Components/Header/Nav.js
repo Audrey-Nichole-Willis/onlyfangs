@@ -1,9 +1,10 @@
 import React from "react";
+import "./nav.css";
 
 function Nav(){
     return (
     <nav className="navbar navbar-expand-lg">
-        <a href="#" className="navbar-brand">OnlyFangs</a>
+        <a href="#" className="navbar-brand brand">OnlyFangs</a>
         <button 
             className="navbar-toggler"
             type="button"
@@ -15,7 +16,7 @@ function Nav(){
                 <i class="fa-solid fa-bars navbar-toggler-icon"></i>
             </button>
         <div className="collapse navbar-collapse" id="togglingNav">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav w-100 d-flex justify-content-center justify-content-lg-end">
                 <li className="nav-item">
                     <a className="nav-link" href="#">Home</a>
                 </li>
