@@ -1,6 +1,10 @@
 .navbar  a{
     color:green;
 }
+.navbar a:hover{
+    color:white;
+    transform:scale(1.1)
+}
 .brand{
     font-size:2rem;
 }
