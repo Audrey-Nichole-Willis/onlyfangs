@@ -1,0 +1,13 @@
+.services-box{
+    padding:2%;
+}
+.service{
+    border:1px solid green;
+    height:20vh;
+}
+.service p{
+    color:green;
+}
+.service i{
+    color:white;
+}
